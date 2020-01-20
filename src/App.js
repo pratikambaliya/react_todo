@@ -14,6 +14,7 @@ class App extends React.Component{
         key:''
       }
     }
+
     this.inputHandler = this.inputHandler.bind(this);
     this.taskAdd = this.taskAdd.bind(this);
     this.taskChanged = this.taskChanged.bind(this);
@@ -97,7 +98,6 @@ class App extends React.Component{
               
             <button id="btnAdd" type="submit">Add</button>
           </form>
-         <p>{this.state.tasks.text}</p> 
          {todolist}
         </header>
       </div>
