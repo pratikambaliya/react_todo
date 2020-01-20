@@ -1,0 +1,49 @@
+body{
+  background-color: #39375b;
+  height: 100%;
+}
+.App{
+  text-align: center;
+  color: #fff;
+}
+.main{
+  background-color: #745c97;
+  min-height: 500px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+.formtd input{
+  background-color: #d597ce;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.formtd input:focus{
+  outline: none;
+}
+
+#btnAdd{
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  border-width: 1.75px;
+  border-color:#fed62d;
+  background-color: #fed62d;
+  font-size: 20px;
+  margin-left: -10px;
+  outline: none;
+}
+#btnAdd:hover{
+  border: 0;
+  background-color: #c29d00bd;
+}
+#btnAdd:focus{
+  outline: none;
+}
